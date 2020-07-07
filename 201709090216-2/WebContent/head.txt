@@ -1,0 +1,90 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.main{
+	margin: 0 auto;
+	width: 800px;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+
+.banner{
+	height: 180px;
+	width: 800px;
+	background-image: url("img/bgimg.jpg");
+	background-repeat:no-repeat;
+	
+	
+}
+.content{
+	height: 400px;
+	width: 800px;
+	
+}
+.footer{
+	height: 50px;
+	width: 800px;
+	background-color: #D6E6FD; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ban1{
+	height:100px;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+.ban2{
+	height:80px;
+	font-size: 18px;
+	vertical-align: middle;
+	text-align: center;
+}
+.ht{
+	padding: 5px;
+}
+.hx{
+	padding: 10px;
+	font-size: 20px;
+	font-family: "宋体";
+}
+.ft{
+	padding: 20px;
+}
+.left{
+	height: 420px;
+	width: 200px;
+	float: left;
+	background-color: #D6E6FD; 
+	text-align: center;
+}
+.right{
+	height: 420px;
+	width: 600px;
+	float: left;
+	vertical-align: middle;
+}
+.at1{
+	padding-top: 90px;
+}
+
+.at2{
+	padding-top: 110px;
+}
+</style>
+<meta charset="UTF-8">
+<title>Java Web应用程序开发</title>
+</head>
+<body>
+<div class="main">
+<div class="banner">
+<div class="ban1"><p class="ht"><h1>Java Web应用程序开发</h1></p></div>
+<div class="ban2"><p class="hx">软件工程专业&nbsp2017级2班&nbsp201709090216&nbsp卢富强</p></div>
+</div>
+<div class="content">
+<div class="left"><p class="at1"><a href="index.jsp">JSP基本操作</a></p><p class="at2"><a href="login.jsp">数据库访问</a></p></div>
+
