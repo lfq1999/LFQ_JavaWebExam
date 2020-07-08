@@ -27,7 +27,7 @@ String username =(String)session.getAttribute("username");
 if(username==null){
 //内置对象response基本用法之一，重定向：
 request.setAttribute("ts","请登录！");
-response.sendRedirect("login.jsp");
+request.getRequestDispatcher("login.jsp").forward(request, response);
 }
 %>
 
