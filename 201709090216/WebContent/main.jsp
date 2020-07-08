@@ -25,18 +25,12 @@
 String username =(String)session.getAttribute("username");
 //检查用户是否登录,并为管理员，
 if(username==null){
-//内置对象response基本用法之一，重定向：
 request.setAttribute("ts","请登录！");
 request.getRequestDispatcher("login.jsp").forward(request, response);
 }
 %>
-
-
-
 	<h1>登录成功</h1>
 	<p>欢迎您：<%=session.getAttribute("username") %></p>
-	
-	
 	<a href="logout.jsp">注销</a>
 	
 </div>
